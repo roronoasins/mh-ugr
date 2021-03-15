@@ -201,6 +201,6 @@ class ILS(SA):
         #update data estructures with best_S
         self.S = best_s.copy()
         self.update_carray()
-        self.update_centroids_sa()
+        self.update_centroids()
         self.update_distances()
         return self.best_f, best_s.copy()
